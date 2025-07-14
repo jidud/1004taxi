@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>천사택시</title>
+  <style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+    body { 
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: white;
+      color: #1a1a1a;
+    }
+
+    nav {
+      background: #09285d;
+      padding: 35px 0; /* Increase top/bottom padding */
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      color: white;
+    }
+
+    .nav-container h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    .nav-links a {
+      color: white;
+      margin-left: 25px;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .taxi {
+      padding-top: 140px;
+      text-align: center;
+    }
+
+    .taxi h2 {
+      font-size: 4.5em;
+      font-weight: bold;
+      color: #2c2c5e;
+    }
+
+    .taxi p {
+      font-size: 2.0em;
+      margin-top: 10px;
+      color: #1e1e4f;
+    }
+
+    .taxi img {
+      margin-top: 40px;
+      width: 350px;
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 4.5em;
+      color: #18160d;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 1.5em;
+      line-height: 1.6;
+    }
+
+    ul {
+      font-size: 1.5em;
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f3f2f2;
+      color: #333;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-links {
+        margin-top: 10px;
+      }
+
+      .nav-links a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="nav-container">
+    <h1>천사 택시</h1>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">서비스</a>
+      <a href="#contact">전화/문의</a>
+      <a href="#hours">근무시간</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Home / taxi Section -->
+<section class="taxi" id="home">
+  <h2>LA 공항픽업 - 천사택시</h2>
+  <p>(213)-387-1004</p>
+  <img src="https://raw.githubusercontent.com/jidud/1004taxi/main/logo.png" alt="천사택시 로고" />
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <h2>서비스</h2>
+  <ul>
+    <li>LA 한인타운 픽업 및 드롭</li>
+    <li>LAX 공항 픽업/드롭 서비스</li>
+    <li>예약 기반 우선 배차</li>
+    <li>24시간 친절한 서비스</li>
+  </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>전화 / 문의</h2>
+  <p>전화번호: <strong>(213) 387-1004</strong></p>
+  <p>문자 또는 전화로 언제든지 문의 주세요.</p>
+</section>
+
+<!-- Hours Section -->
+<section id="hours">
+  <h2>근무시간</h2>
+  <p>저희는 <strong>24시간 연중무휴</strong>로 운영합니다. 언제든지 연락 주세요!</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 1004Taxi. All rights reserved.
+</footer>
+
+</body>
+</html>
